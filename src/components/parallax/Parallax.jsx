@@ -25,7 +25,7 @@ export default function Parallax({ type }) {
       }}
     >
       <motion.h1 style={{ y: yText }}>
-        {type === "services" ? "Habilidades" : "Proyectos"}
+        {type === "services" ? "Mis Habilidades" : "Proyectos"}
       </motion.h1>
       <motion.div className="mountains"></motion.div>
       <motion.div
